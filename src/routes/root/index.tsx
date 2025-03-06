@@ -46,7 +46,7 @@ export const RootRoute = () => {
           <center>
           <button 
           className="bg-blue-500 text-black px-4 py-2 rounded-md shadow-md cursor-pointer hover:bg-violet-600 transition-colors"
-          >
+          >   
             <a href="dettaglio/0"> link 0</a>
           </button>
           </center>
