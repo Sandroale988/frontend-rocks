@@ -5,3 +5,15 @@ body {
   background-repeat: no-repeat;
   background-size:cover;
 }
+p:hover {
+  color: red;
+  }
+h1:hover {
+  color: red;
+  }
+h2:hover {
+  color: red;
+  }
+button:hover{
+  color: blue;
+}
