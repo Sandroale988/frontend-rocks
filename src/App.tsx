@@ -33,7 +33,6 @@ export const App = () => {
           </button>
           
           <button
-          id="cambiaSfondo"
           className="bg-red-500 text-black px-4 py-2 rounded-md shadow-md cursor-pointer hover:bg-yellow-600 transition-colors"
           onClick={() => setTitle("dai uomo") }
           >
