@@ -1,10 +1,10 @@
 import {useState} from "react";
 import reactLogo from "../../assets/react.svg";
 import viteLogo from "/vite.svg";
+import {Link} from "react-router";
 export const RootRoute = () => {
     const [count, setCount] = useState(0);
     const [title, setTitle] = useState("ITALIA ");
-  
     return (
       <div className="h-dvh flex flex-col items-center justify-center">
         <div className="bg-white p-8 rounded-md shadow-lg">
@@ -46,7 +46,10 @@ export const RootRoute = () => {
           <button 
           className="bg-blue-500 text-black px-4 py-2 rounded-md shadow-md cursor-pointer hover:bg-violet-600 transition-colors"
           >   
-            <a href="dettaglio/0"> link 0</a>
+            <Link
+            to={'/dettaglio/0'}>
+              link 0 {count}
+            </Link>
           </button>
           </center>
         </div>
