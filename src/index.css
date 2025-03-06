@@ -1,6 +1,7 @@
 @import "tailwindcss";
 
 body {
-  background-image: url('/geodude-pattern.png');
-  background-repeat: repeat;
+  background-image: url('https://i.ytimg.com/vi/dPRfoF_t69c/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLApwpajC8UBhokjXFvHAn6z7Y6wKw');
+  background-repeat: no-repeat;
+  background-size:cover;
 }
