@@ -1,9 +1,13 @@
 @import "tailwindcss";
-
+nav{
+  background-color: blue;
+  height: 200px;
+}
 body {
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Colosseo_2020.jpg/640px-Colosseo_2020.jpg');
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-7MbEDBGUV0eqfdngw6YpX92x6zRtpW2gkA&s');
   background-repeat: no-repeat;
   background-size:cover;
+  color: blue;
 }
 p:hover {
   color: red;
